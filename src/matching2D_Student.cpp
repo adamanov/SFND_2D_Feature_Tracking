@@ -79,7 +79,7 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
     else if (descriptorType.compare("FREAK")==0)
     {
         //cv::xfeatures2d::FREAK extractor;
-        //extractor = cv::xfeatures2d::FREAK::create();
+        extractor = cv::xfeatures2d::FREAK::create();
 
     }
     else if (descriptorType.compare("AKAZE") == 0)
@@ -89,14 +89,14 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
     }
     else if (descriptorType.compare("SIFT")==0)
     {
-        //extractor = cv::SIFT::create(); // same thing as below
-        extractor = cv::SiftDescriptorExtractor::create();
+        //extractor = cv::xfeatures2d::SIFT::create(); // same thing as below
+        extractor = cv::xfeatures2d::SiftDescriptorExtractor::create();
     }
     else if (descriptorType.compare("SURF")==0)
     {
         //extractor = cv::xfeatures2d::SURF::create();
         int minHessian = 400;
-        //extractor = cv::xfeatures2d::SurfDescriptorExtractor::create(minHessian);
+        extractor = cv::xfeatures2d::SurfDescriptorExtractor::create(minHessian);
     }
     else
     {
@@ -279,7 +279,7 @@ void detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std:
     }
     else if (detectorType.compare("SIFT") ==0)
     {
-        cv::Ptr<cv::FeatureDetector> sift_detector = cv::SIFT::create();
+        cv::Ptr<cv::FeatureDetector> sift_detector = cv::xfeatures2d::SIFT::create();
         double t = (double)cv::getTickCount();
         sift_detector->detect(img,keypoints);
         t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();

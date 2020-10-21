@@ -1,0 +1,330 @@
+---------------------------------------------------
+--------------------TASK: MP.7---------------------
+---------------------------------------------------
+
+Keypoints 
+HARRIS
+Image no: 0 kpts: 17
+Image no: 1 kpts: 14
+Image no: 2 kpts: 19
+Image no: 3 kpts: 22
+Image no: 4 kpts: 26
+Image no: 5 kpts: 47
+Image no: 6 kpts: 18
+Image no: 7 kpts: 32
+Image no: 8 kpts: 27
+Image no: 9 kpts: 35
+Total number of kpts: 257
+
+FAST
+Image no: 0 kpts: 1374
+Image no: 1 kpts: 1398
+Image no: 2 kpts: 1375
+Image no: 3 kpts: 1352
+Image no: 4 kpts: 1362
+Image no: 5 kpts: 1424
+Image no: 6 kpts: 1382
+Image no: 7 kpts: 1343
+Image no: 8 kpts: 1386
+Image no: 9 kpts: 1358
+Total number of kpts: 13754
+
+BRISK
+Image no: 0 kpts: 264
+Image no: 1 kpts: 282
+Image no: 2 kpts: 282
+Image no: 3 kpts: 277
+Image no: 4 kpts: 297
+Image no: 5 kpts: 279
+Image no: 6 kpts: 289
+Image no: 7 kpts: 272
+Image no: 8 kpts: 266
+Image no: 9 kpts: 254
+Total number of kpts: 2762
+
+ORB
+Image no: 0 kpts: 92
+Image no: 1 kpts: 102
+Image no: 2 kpts: 106
+Image no: 3 kpts: 113
+Image no: 4 kpts: 109
+Image no: 5 kpts: 125
+Image no: 6 kpts: 130
+Image no: 7 kpts: 129
+Image no: 8 kpts: 127
+Image no: 9 kpts: 128
+Total number of kpts: 1161
+
+AKAZE
+Image no: 0 kpts: 166
+Image no: 1 kpts: 157
+Image no: 2 kpts: 161
+Image no: 3 kpts: 155
+Image no: 4 kpts: 163
+Image no: 5 kpts: 164
+Image no: 6 kpts: 173
+Image no: 7 kpts: 175
+Image no: 8 kpts: 177
+Image no: 9 kpts: 179
+Total number of kpts: 1670
+
+SIFT
+Image no: 0 kpts: 138
+Image no: 1 kpts: 132
+Image no: 2 kpts: 124
+Image no: 3 kpts: 137
+Image no: 4 kpts: 134
+Image no: 5 kpts: 140
+Image no: 6 kpts: 137
+Image no: 7 kpts: 148
+Image no: 8 kpts: 159
+Image no: 9 kpts: 137
+Total number of kpts: 1386
+
+
+SHITOMASI
+Image no: 0 kpts: 125
+Image no: 1 kpts: 118
+Image no: 2 kpts: 123
+Image no: 3 kpts: 120
+Image no: 4 kpts: 120
+Image no: 5 kpts: 113
+Image no: 6 kpts: 114
+Image no: 7 kpts: 123
+Image no: 8 kpts: 111
+Image no: 9 kpts: 112
+Total number of kpts: 1179
+
+---------------------------------------------------
+-----------------TASK: MP.8-----------------------
+---------------------------------------------------
+
+SIFT Detector and Descriptor 
+Match between image: 1 and 2 is matched #kpts: 36
+Match between image: 2 and 3 is matched #kpts: 29
+Match between image: 3 and 4 is matched #kpts: 35
+Match between image: 4 and 5 is matched #kpts: 38
+Match between image: 5 and 6 is matched #kpts: 33
+Match between image: 6 and 7 is matched #kpts: 31
+Match between image: 7 and 8 is matched #kpts: 31
+Match between image: 8 and 9 is matched #kpts: 29
+Total number of matched kpts: 262
+
+BRISK Detector and Descriptor
+Match between image: 1 and 2 is matched #kpts: 24
+Match between image: 2 and 3 is matched #kpts: 24
+Match between image: 3 and 4 is matched #kpts: 25
+Match between image: 4 and 5 is matched #kpts: 21
+Match between image: 5 and 6 is matched #kpts: 31
+Match between image: 6 and 7 is matched #kpts: 21
+Match between image: 7 and 8 is matched #kpts: 29
+Match between image: 8 and 9 is matched #kpts: 29
+Total number of matched kpts: 204
+
+ORB Detector and Descriptor 
+
+Match between image: 1 and 2 is matched #kpts: 29
+Match between image: 2 and 3 is matched #kpts: 27
+Match between image: 3 and 4 is matched #kpts: 27
+Match between image: 4 and 5 is matched #kpts: 24
+Match between image: 5 and 6 is matched #kpts: 27
+Match between image: 6 and 7 is matched #kpts: 26
+Match between image: 7 and 8 is matched #kpts: 27
+Match between image: 8 and 9 is matched #kpts: 33
+Total number of matched kpts: 220
+
+AKAZE Detector and Descriptor
+
+Match between image: 1 and 2 is matched #kpts: 37
+Match between image: 2 and 3 is matched #kpts: 34
+Match between image: 3 and 4 is matched #kpts: 31
+Match between image: 4 and 5 is matched #kpts: 30
+Match between image: 5 and 6 is matched #kpts: 34
+Match between image: 6 and 7 is matched #kpts: 39
+Match between image: 7 and 8 is matched #kpts: 41
+Match between image: 8 and 9 is matched #kpts: 36
+Total number of matched kpts: 282
+
+Descriptor FREAK and Detector FAST
+Match between image: 1 and 2 is matched #kpts: 30
+Match between image: 2 and 3 is matched #kpts: 15
+Match between image: 3 and 4 is matched #kpts: 16
+Match between image: 4 and 5 is matched #kpts: 21
+Match between image: 5 and 6 is matched #kpts: 23
+Match between image: 6 and 7 is matched #kpts: 23
+Match between image: 7 and 8 is matched #kpts: 25
+Match between image: 8 and 9 is matched #kpts: 24
+Total number of matched kpts: 177
+
+Descriptor FREAK and Detector BRISK
+Match between image: 1 and 2 is matched #kpts: 24
+Match between image: 2 and 3 is matched #kpts: 16
+Match between image: 3 and 4 is matched #kpts: 19
+Match between image: 4 and 5 is matched #kpts: 17
+Match between image: 5 and 6 is matched #kpts: 27
+Match between image: 6 and 7 is matched #kpts: 15
+Match between image: 7 and 8 is matched #kpts: 23
+Match between image: 8 and 9 is matched #kpts: 24
+Total number of matched kpts: 165
+
+Descriptor FREAK and Detector ORB
+Match between image: 1 and 2 is matched #kpts: 30
+Match between image: 2 and 3 is matched #kpts: 29
+Match between image: 3 and 4 is matched #kpts: 33
+Match between image: 4 and 5 is matched #kpts: 29
+Match between image: 5 and 6 is matched #kpts: 27
+Match between image: 6 and 7 is matched #kpts: 33
+Match between image: 7 and 8 is matched #kpts: 25
+Match between image: 8 and 9 is matched #kpts: 31
+Total number of matched kpts: 237
+
+Descriptor FREAK and Detector AKAZE
+Match between image: 1 and 2 is matched #kpts: 35
+Match between image: 2 and 3 is matched #kpts: 27
+Match between image: 3 and 4 is matched #kpts: 28
+Match between image: 4 and 5 is matched #kpts: 28
+Match between image: 5 and 6 is matched #kpts: 35
+Match between image: 6 and 7 is matched #kpts: 35
+Match between image: 7 and 8 is matched #kpts: 36
+Match between image: 8 and 9 is matched #kpts: 34
+Total number of matched kpts: 258
+
+Descriptor ORB and Detector FAST
+Match between image: 1 and 2 is matched #kpts: 26
+Match between image: 2 and 3 is matched #kpts: 21
+Match between image: 3 and 4 is matched #kpts: 19
+Match between image: 4 and 5 is matched #kpts: 27
+Match between image: 5 and 6 is matched #kpts: 31
+Match between image: 6 and 7 is matched #kpts: 24
+Match between image: 7 and 8 is matched #kpts: 34
+Match between image: 8 and 9 is matched #kpts: 29
+Total number of matched kpts: 211
+
+Descriptor ORB and Detector BRISK
+Match between image: 1 and 2 is matched #kpts: 19
+Match between image: 2 and 3 is matched #kpts: 19
+Match between image: 3 and 4 is matched #kpts: 18
+Match between image: 4 and 5 is matched #kpts: 17
+Match between image: 5 and 6 is matched #kpts: 22
+Match between image: 6 and 7 is matched #kpts: 23
+Match between image: 7 and 8 is matched #kpts: 24
+Match between image: 8 and 9 is matched #kpts: 21
+Total number of matched kpts: 163
+
+Descriptor ORB and Detector AZAKE
+Match between image: 1 and 2 is matched #kpts: 32
+Match between image: 2 and 3 is matched #kpts: 28
+Match between image: 3 and 4 is matched #kpts: 28
+Match between image: 4 and 5 is matched #kpts: 28
+Match between image: 5 and 6 is matched #kpts: 32
+Match between image: 6 and 7 is matched #kpts: 29
+Match between image: 7 and 8 is matched #kpts: 38
+Match between image: 8 and 9 is matched #kpts: 37
+Total number of matched kpts: 252
+
+Detector AKAZE and Descriptor BRISK
+Match between image: 1 and 2 is matched #kpts: 36
+Match between image: 2 and 3 is matched #kpts: 35
+Match between image: 3 and 4 is matched #kpts: 35
+Match between image: 4 and 5 is matched #kpts: 34
+Match between image: 5 and 6 is matched #kpts: 35
+Match between image: 6 and 7 is matched #kpts: 39
+Match between image: 7 and 8 is matched #kpts: 39
+Match between image: 8 and 9 is matched #kpts: 39
+Total number of matched kpts: 292
+
+Descriptor SIFT and Detector FAST
+Match between image: 1 and 2 is matched #kpts: 32
+Match between image: 2 and 3 is matched #kpts: 31
+Match between image: 3 and 4 is matched #kpts: 34
+Match between image: 4 and 5 is matched #kpts: 39
+Match between image: 5 and 6 is matched #kpts: 39
+Match between image: 6 and 7 is matched #kpts: 40
+Match between image: 7 and 8 is matched #kpts: 40
+Match between image: 8 and 9 is matched #kpts: 36
+Total number of matched kpts: 291
+
+Descriptor SIFT and Detector BRISK
+Match between image: 1 and 2 is matched #kpts: 31
+Match between image: 2 and 3 is matched #kpts: 29
+Match between image: 3 and 4 is matched #kpts: 33
+Match between image: 4 and 5 is matched #kpts: 30
+Match between image: 5 and 6 is matched #kpts: 34
+Match between image: 6 and 7 is matched #kpts: 29
+Match between image: 7 and 8 is matched #kpts: 33
+Match between image: 8 and 9 is matched #kpts: 31
+Total number of matched kpts: 250
+
+Descriptor SIFT and Detector ORB
+Match between image: 1 and 2 is matched #kpts: 44
+Match between image: 2 and 3 is matched #kpts: 36
+Match between image: 3 and 4 is matched #kpts: 41
+Match between image: 4 and 5 is matched #kpts: 44
+Match between image: 5 and 6 is matched #kpts: 35
+Match between image: 6 and 7 is matched #kpts: 44
+Match between image: 7 and 8 is matched #kpts: 41
+Match between image: 8 and 9 is matched #kpts: 40
+Total number of matched kpts: 325
+
+Descriptor SIFT and Detector AKAZE
+Match between image: 1 and 2 is matched #kpts: 38
+Match between image: 2 and 3 is matched #kpts: 32
+Match between image: 3 and 4 is matched #kpts: 39
+Match between image: 4 and 5 is matched #kpts: 37
+Match between image: 5 and 6 is matched #kpts: 37
+Match between image: 6 and 7 is matched #kpts: 39
+Match between image: 7 and 8 is matched #kpts: 44
+Match between image: 8 and 9 is matched #kpts: 41
+Total number of matched kpts: 307
+
+Detector SIFT and Descriptor FREAK
+Match between image: 1 and 2 is matched #kpts: 24
+Match between image: 2 and 3 is matched #kpts: 23
+Match between image: 3 and 4 is matched #kpts: 16
+Match between image: 4 and 5 is matched #kpts: 18
+Match between image: 5 and 6 is matched #kpts: 16
+Match between image: 6 and 7 is matched #kpts: 17
+Match between image: 7 and 8 is matched #kpts: 15
+Match between image: 8 and 9 is matched #kpts: 16
+Total number of matched kpts: 145
+
+Detector SIFT and Descriptor BRISK
+Match between image: 1 and 2 is matched #kpts: 26
+Match between image: 2 and 3 is matched #kpts: 22
+Match between image: 3 and 4 is matched #kpts: 21
+Match between image: 4 and 5 is matched #kpts: 18
+Match between image: 5 and 6 is matched #kpts: 19
+Match between image: 6 and 7 is matched #kpts: 17
+Match between image: 7 and 8 is matched #kpts: 13
+Match between image: 8 and 9 is matched #kpts: 22
+Total number of matched kpts: 158
+
+Detector SIFT and Descriptor ORG
+->Erorr, not suitable  
+
+Detector SIFT and Descriptor AKAZE
+->Erorr, not suitable 
+
+
+---------------------------------------------------
+-----------TASK: MP.9------------------------------
+---------------------------------------------------
+
+Detector AKAZE and Descriptor BRISK - > 292
+AKAZE Detector and Descriptor       - > 282
+Descriptor FREAK and Detector AKAZE - > 258
+
+
+Descriptor SIFT and Detector ORB    - > 325
+Descriptor SIFT and Detector AKAZE  - > 307
+Descriptor SIFT and Detector FAST   - > 291
+
+Above I mentioned top3 detector and Descriptor for both classical and modern methods.
+As we can see SIFT Descriptor is show really good results with combination of modern Detector
+algorithms and outperform modern Descriptor algorithms. However, in our case 
+it is not only enough to show good detecting and matching of keypoints perform.
+It is also important that we could do it in a real-time application. 
+And since SIFT Descriptor is HOG family algorithms, it will show slow performance on 
+a real time application. Thats why it better to choose a detector from Binary Descriptor family.
+Such that AKAZE Detector suitable best for us case, and depened on further investigation 
+of time required for Descriptor we could choose either BRISK or AKAZE as Descriptor

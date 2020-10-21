@@ -41,6 +41,10 @@ int main(int argc, const char *argv[])
     bool bVis = false;            // visualize results
 
     /* MAIN LOOP OVER ALL IMAGES */
+    vector<int> total_keypoints;
+
+    vector<int> total_matched;
+
 
     for (size_t imgIndex = 0; imgIndex <= imgEndIndex - imgStartIndex; imgIndex++)
     {
@@ -64,7 +68,7 @@ int main(int argc, const char *argv[])
 
         DataFrame frame;
         frame.cameraImg = imgGray;
-        if (dataBuffer.size() <= dataBufferSize)
+        if (dataBuffer.size() < dataBufferSize)
         {
             dataBuffer.push_back(frame);
             std::cout<<"Size of dataBuffered: ----------------------------> "<< dataBuffer.size()<<std::endl;
@@ -80,16 +84,18 @@ int main(int argc, const char *argv[])
 
         //// EOF STUDENT ASSIGNMENT
         cout << "#1 : LOAD IMAGE INTO BUFFER done" << endl;
+    
+
 
         /* DETECT IMAGE KEYPOINTS */
 
         // extract 2D keypoints from current image
         vector<cv::KeyPoint> keypoints; // create empty feature list for current image
-        string detectorType = "SHITOMASI";
+        string detectorType = "AKAZE";
 
         //// STUDENT ASSIGNMENT
         //// TASK MP.2 -> add the following keypoint detectors in file matching2D.cpp and enable string-based selection based on detectorType
-        //// -> HARRIS, FAST, BRISK, ORB, AKAZE, SIFT
+        //// -> HARRIS, FAST, BRISK, ORB, AKAZE, SIFT, SHITOMASI
 
         if (detectorType.compare("SHITOMASI") == 0)
         {
@@ -105,6 +111,7 @@ int main(int argc, const char *argv[])
 
         }
         //// EOF STUDENT ASSIGNMENT
+        
 
         //// STUDENT ASSIGNMENT
         //// TASK MP.3 -> only keep keypoints on the preceding vehicle
@@ -133,7 +140,7 @@ int main(int argc, const char *argv[])
             keypoints.clear();
             keypoints = tempKeypoints;
         }
-
+        total_keypoints.push_back(keypoints.size());
         //// EOF STUDENT ASSIGNMENT
 
         // optional : limit number of keypoints (helpful for debugging and learning)
@@ -203,6 +210,7 @@ int main(int argc, const char *argv[])
             (dataBuffer.end() - 1)->kptMatches = matches;
 
             cout << "#4 : MATCH KEYPOINT DESCRIPTORS done" << endl;
+            total_matched.push_back(matches.size());
 
             // visualize matches between current and previous image
             bVis = true;
@@ -225,6 +233,25 @@ int main(int argc, const char *argv[])
         }
 
     } // eof loop over all images
+    int num_of_kpts = 0;
+    for (int it=0; it<total_keypoints.size(); ++it)
+     
+    {
+      std::cout<<"Image no: " <<it<<" kpts: "<<total_keypoints[it]<<std::endl;
+      num_of_kpts =num_of_kpts+total_keypoints[it];
+    }
+    std::cout<<"Total number of kpts: " <<num_of_kpts<<std::endl;
+
+    std::cout<<"\n\n"<<std::endl;
+
+    int num_of_matched = 0;
+    for (int i =1 ;i <total_matched.size(); ++i)
+    {
+        std::cout<<"Match between image: " <<i<< " and "<<i+1<<" is matched #kpts: "<<total_matched[i]<<std::endl;
+        num_of_matched = num_of_matched+total_matched[i];
+
+    }
+    std::cout<<"Total number of matched kpts: " <<num_of_matched<<std::endl;
 
     return 0;
 }
