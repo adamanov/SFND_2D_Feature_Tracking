@@ -11,43 +11,46 @@ The idea of the camera course was to build a collision detection system - that's
 
 
 
-## TASKS:
+# TASKS:
 * # MP.1 Data Buffer Optimization
    In order to prevenet pushing of computer memeory to limit, we only wanted to hold a certain number of images in memory so that when a new one arrives
 
 
 * # MP.2 Keypoint Detection
 	Implement classical and modern detectors and make them selectable by setting a string accordingly.
-    -Classical detectors:
-    	HARRIS, 
-   	Shi-Tomas,
-    	SIFT.
-        SUFT. (was not impelemented)
-    
-    -Modern detectors:
-    	FAST,
-    	BRISK,
-    	ORB,
-    	AKAZE
+1. Classical detectors:
+	1.	HARRIS, 
+	2.	Shi-Tomas,
+	3.	SIFT.
+	4.	SUFT. (was not impelemented)
+2. Modern detectors:
+	1.	FAST,
+	2.	BRISK,
+	3.	ORB,
+	4.	AKAZE
     
 * # MP.3 Keypoint Removal
  	Discard feature points that are not located on the preceding vehicle.
  
 * # MP.4 Keypoint Descriptors
 	Implement HOG and Binary descriptors and make them selectable by setting a string accordingly.
-    -HOG Descriptor"
-    	SIFT
-    -Binary Descriptors:
-    	BRISK 
-        BRIEF 
-        ORB 
-        FREAK 
-        AKAZE
+1. HOG Descriptor
+	1.	SIFT
+2. Binary Descriptors:
+	1.	BRISK 
+	2.	BRIEF 
+	3.	ORB 
+	4.	FREAK 
+	5.	AKAZE
     
 * # MP.5 Descriptor Matching
 	Implement Brute Force and FLANN matching as well as k-nearest neighbor selection. Both methods must be selectable using the respective strings in the main function.
-    BF     -- > Binary / HOG --> NN / kNN
-    FLANN  -- >       HOG    --> kNN
+1.	BF     
+	1.	Binary / HOG 
+	2.	NN / kNN
+2.	FLANN 
+	1.	HOG
+	2.	kNN
 
 * # MP.6 Descriptor Distance Ratio
 	Use the K-Nearest-Neighbor matching to implement the descriptor distance ratio test, which looks at the ratio of best vs. second-best match to decide whether to keep an associated pair of keypoints.
