@@ -4,13 +4,6 @@
 
 The idea of the camera course was to build a collision detection system - that's the overall goal for the Final Project. As a preparation for this, I buılt the feature tracking part and test various detector / descriptor combinations to see which ones perform best. This mid-term project consists of four parts:
 
-* First, you will focus on loading images, setting up data structures and putting everything into a ring buffer to optimize memory load. 
-* Then, you will integrate several keypoint detectors such as HARRIS, FAST, BRISK and SIFT and compare them with regard to number of keypoints and speed. 
-* In the next part, you will then focus on descriptor extraction and matching using brute force and also the FLANN approach we discussed in the previous lesson. 
-* In the last part, once the code framework is complete, you will test the various algorithms in different combinations and compare them with regard to some performance measures. 
-
-
-
 ## TASKS:
 ### * MP.1 Data Buffer Optimization
    In order to prevenet pushing of computer memeory to limit, we only wanted to hold a certain number of images in memory so that when a new one arrives
