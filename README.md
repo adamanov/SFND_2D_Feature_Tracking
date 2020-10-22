@@ -32,7 +32,7 @@ The idea of the camera course was to build a collision detection system - that's
 ### * MP.3 Keypoint Removal
  	Discard feature points that are not located on the preceding vehicle.
  
-* ## MP.4 Keypoint Descriptors
+### * MP.4 Keypoint Descriptors
 	Implement HOG and Binary descriptors and make them selectable by setting a string accordingly.
 1. HOG Descriptor
 	1.	SIFT
