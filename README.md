@@ -5,30 +5,30 @@
 The idea of the camera course was to build a collision detection system - that's the overall goal for the Final Project. As a preparation for this, I buılt the feature tracking part and test various detector / descriptor combinations to see which ones perform best. This mid-term project consists of four parts:
 
 ## TASKS:
-### Data Buffer
+### 1. Data Buffer
 ##### -	 Data Buffer Optimization
    In order to prevenet pushing of computer memeory to limit, we only wanted to hold a certain number of images in memory so that when a new one arrives
 
 
-### Keypoints
+### 2. Keypoints
 
-##### - Keypoint Detection
-Implement classical and modern detectors and make them selectable by setting a string accordingly.
-1. Classical detectors:
-	1.	HARRIS, 
-	2.	Shi-Tomas,
-	3.	SIFT.
-	4.	SUFT. (was not impelemented)
-2. Modern detectors:
-	1.	FAST,
-	2.	BRISK,
-	3.	ORB,
-	4.	AKAZE
-   
+##### -	Keypoint Detection
+		Implement classical and modern detectors and make them selectable by setting a string accordingly.
+		1. Classical detectors:
+			1.	HARRIS, 
+			2.	Shi-Tomas,
+			3.	SIFT.
+			4.	SUFT. (was not impelemented)
+		2. Modern detectors:
+			1.	FAST,
+			2.	BRISK,
+			3.	ORB,
+			4.	AKAZE
+
 #### - Keypoint Removal
  Discard feature points that are not located on the preceding vehicle.
  
-### Descriptors 
+### 3. Descriptors 
 #### - Keypoint Descriptors
 Implement HOG and Binary descriptors and make them selectable by setting a string accordingly.
 1. HOG Descriptor
@@ -54,7 +54,7 @@ Both methods must be selectable using the respective strings in the main functio
 Use the K-Nearest-Neighbor matching to implement the descriptor distance ratio test, which looks at the ratio of best vs. 
 second-best match to decide whether to keep an associated pair of keypoints.
 
-### Performance
+### 4. Performance
 #### - Performance Evaluation 1 : Keypoints 
     
 #### - Performance Evaluation 2 : Combination of detectors and descriptors
