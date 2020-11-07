@@ -60,9 +60,12 @@ The idea of the camera course was to build a collision detection system - that's
 	second-best match to decide whether to keep an associated pair of keypoints.
 
 ### 4. Performance
--	#### Performance Evaluation 1 : ```Keypoints```
+-	#### Performance Evaluation 1 : 
+	```Keypoints```
     
--	#### Performance Evaluation 2 :``` Combination of detectors and descriptors```
+-	#### Performance Evaluation 2 :
+	``` Combination of detectors and descriptors```
 
--	#### Performance Evaluation 3 : ```Top-3 combination ```
+-	#### Performance Evaluation 3 : 
+	```Top-3 combination ```
 [PS: check out README_results file.](https://github.com/adamanov/SFND_2D_Feature_Tracking/blob/master/README_results)
