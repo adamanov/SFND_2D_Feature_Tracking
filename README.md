@@ -2,7 +2,7 @@
 ## [Rubric](https://review.udacity.com/#!/rubrics/2549/view) Points
 <img src="images/keypoints.png" width="820" height="248" />
 
-The idea of the camera course was to build a collision detection system - that's the overall goal for the Final Project. As a preparation for this, I buılt the feature tracking part and test various detector / descriptor combinations to see which ones perform best. This mid-term project consists of four parts:
+The idea of the camera course was to build a collision detection system what is also an overall goal for the Final Project. As a preparation for this, I buılt the feature tracker and test various detector / descriptor combinations to see which ones perform best. This mid-term project consists of four parts:
 
 ## TASKS:
 ### 1. Data Buffer
