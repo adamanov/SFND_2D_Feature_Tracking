@@ -14,6 +14,7 @@ The idea of the camera course was to build a collision detection system - that's
 
 -	####	Keypoint Detection
 Implement classical and modern detectors and make them selectable by setting a string accordingly.
+```
 1. Classical detectors:
 	1.1	HARRIS 
 	1.2	Shi-Tomas
@@ -24,13 +25,14 @@ Implement classical and modern detectors and make them selectable by setting a s
 	2.2	BRISK
 	2.3	ORB
 	2.4	AKAZE
-
+```
 -	#### Keypoint Removal
 Discard feature points that are not located on the preceding vehicle.
  
 ### 3. Descriptors 
 -	####  Keypoint Descriptors
 Implement HOG and Binary descriptors and make them selectable by setting a string accordingly.
+```
 1. HOG Descriptor
 	1.1	SIFT
 2. Binary Descriptors:
@@ -39,6 +41,7 @@ Implement HOG and Binary descriptors and make them selectable by setting a strin
 	2.3	ORB 
 	2.4	FREAK 
 	2.5	AKAZE
+```
     
 -	####  Descriptor Matching
 Implement Brute Force and FLANN matching as well as k-nearest neighbor selection. 
