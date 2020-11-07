@@ -69,4 +69,25 @@ The idea of the camera course was to build a collision detection system what is 
 -	#### Performance Evaluation 3 : 
 	```Top-3 combination ```
 
-[PS: check out results file.](https://github.com/adamanov/SFND_2D_Feature_Tracking/blob/master/results)
+Results: 
+Detector AKAZE and Descriptor BRISK - > 292 
+AKAZE Detector and Descriptor       - > 282
+Descriptor FREAK and Detector AKAZE - > 258
+
+
+Descriptor SIFT and Detector ORB    - > 325
+Descriptor SIFT and Detector AKAZE  - > 307
+Descriptor SIFT and Detector FAST   - > 291
+
+Above I mentioned top3 detector and Descriptor for both classical and modern methods.
+As we can see SIFT Descriptor is show really good results with combination of modern Detector
+algorithms and outperform modern Descriptor algorithms. However, in our case 
+it is not only enough to show good detecting and matching of keypoints perform.
+It is also important that we could do it in a real-time application. 
+And since SIFT Descriptor is HOG family algorithms, it will show slow performance on 
+a real time application. Thats why it better to choose a detector from Binary Descriptor family.
+Such that AKAZE Detector suitable best for us case, and depened on further investigation 
+of time required for Descriptor we could choose either BRISK or AKAZE as Descriptor
+
+
+[PS: check out results of all combination.](https://github.com/adamanov/SFND_2D_Feature_Tracking/blob/master/results)
