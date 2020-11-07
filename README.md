@@ -6,13 +6,13 @@ The idea of the camera course was to build a collision detection system - that's
 
 ## TASKS:
 ### Data Buffer
-##### * -	 Data Buffer Optimization
+##### -	 Data Buffer Optimization
    In order to prevenet pushing of computer memeory to limit, we only wanted to hold a certain number of images in memory so that when a new one arrives
 
 
 ### Keypoints
 
-##### * - Keypoint Detection
+##### - Keypoint Detection
 Implement classical and modern detectors and make them selectable by setting a string accordingly.
 1. Classical detectors:
 	1.	HARRIS, 
@@ -25,11 +25,11 @@ Implement classical and modern detectors and make them selectable by setting a s
 	3.	ORB,
 	4.	AKAZE
    
-#### * - Keypoint Removal
+#### - Keypoint Removal
  Discard feature points that are not located on the preceding vehicle.
  
 ### Descriptors 
-#### * - Keypoint Descriptors
+#### - Keypoint Descriptors
 Implement HOG and Binary descriptors and make them selectable by setting a string accordingly.
 1. HOG Descriptor
 	1.	SIFT
@@ -40,7 +40,7 @@ Implement HOG and Binary descriptors and make them selectable by setting a strin
 	4.	FREAK 
 	5.	AKAZE
     
-#### * - Descriptor Matching
+#### - Descriptor Matching
 Implement Brute Force and FLANN matching as well as k-nearest neighbor selection. 
 Both methods must be selectable using the respective strings in the main function.
 1.	BF     
@@ -50,14 +50,14 @@ Both methods must be selectable using the respective strings in the main functio
 	1.	HOG
 	2.	kNN
 
-#### * - Descriptor Distance Ratio
+#### - Descriptor Distance Ratio
 Use the K-Nearest-Neighbor matching to implement the descriptor distance ratio test, which looks at the ratio of best vs. 
 second-best match to decide whether to keep an associated pair of keypoints.
 
 ### Performance
-#### * - Performance Evaluation 1 : Keypoints 
+#### - Performance Evaluation 1 : Keypoints 
     
-#### * - Performance Evaluation 2 : Combination of detectors and descriptors
+#### - Performance Evaluation 2 : Combination of detectors and descriptors
 
-#### * - Performance Evaluation 3 : Top-3 combination 
+#### - Performance Evaluation 3 : Top-3 combination 
 `PS: check out README_results file. 
