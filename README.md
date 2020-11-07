@@ -69,4 +69,4 @@ The idea of the camera course was to build a collision detection system what is 
 -	#### Performance Evaluation 3 : 
 	```Top-3 combination ```
 
-[PS: check out README_results file.](https://github.com/adamanov/SFND_2D_Feature_Tracking/blob/master/results)
+[PS: check out results file.](https://github.com/adamanov/SFND_2D_Feature_Tracking/blob/master/results)
