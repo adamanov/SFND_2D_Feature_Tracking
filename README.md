@@ -55,9 +55,9 @@ Use the K-Nearest-Neighbor matching to implement the descriptor distance ratio t
 second-best match to decide whether to keep an associated pair of keypoints.
 
 ### 4. Performance
--	#### - Performance Evaluation 1 : Keypoints 
+-	#### Performance Evaluation 1 : Keypoints 
     
--	#### - Performance Evaluation 2 : Combination of detectors and descriptors
+-	#### Performance Evaluation 2 : Combination of detectors and descriptors
 
--	#### - Performance Evaluation 3 : Top-3 combination 
-```PS: check out README_results file.``` 
+-	#### Performance Evaluation 3 : Top-3 combination 
++	PS: check out README_results file. (./README_results.m)
