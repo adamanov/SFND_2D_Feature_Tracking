@@ -25,11 +25,11 @@ Implement classical and modern detectors and make them selectable by setting a s
 	2.3	ORB,
 	2.4	AKAZE
 
-#### - Keypoint Removal
+##### - Keypoint Removal
 	 Discard feature points that are not located on the preceding vehicle.
  
 ### 3. Descriptors 
-#### - Keypoint Descriptors
+##### - Keypoint Descriptors
 Implement HOG and Binary descriptors and make them selectable by setting a string accordingly.
 1. HOG Descriptor
 	1.1	SIFT
@@ -40,7 +40,7 @@ Implement HOG and Binary descriptors and make them selectable by setting a strin
 	2.4	FREAK 
 	2.5	AKAZE
     
-#### - Descriptor Matching
+##### - Descriptor Matching
 Implement Brute Force and FLANN matching as well as k-nearest neighbor selection. 
 Both methods must be selectable using the respective strings in the main function.
 1.	BF     
@@ -50,14 +50,14 @@ Both methods must be selectable using the respective strings in the main functio
 	2.1	HOG
 	2.2	kNN
 
-#### - Descriptor Distance Ratio
+##### - Descriptor Distance Ratio
 Use the K-Nearest-Neighbor matching to implement the descriptor distance ratio test, which looks at the ratio of best vs. 
 second-best match to decide whether to keep an associated pair of keypoints.
 
 ### 4. Performance
-#### - Performance Evaluation 1 : Keypoints 
+##### - Performance Evaluation 1 : Keypoints 
     
-#### - Performance Evaluation 2 : Combination of detectors and descriptors
+##### - Performance Evaluation 2 : Combination of detectors and descriptors
 
-#### - Performance Evaluation 3 : Top-3 combination 
+##### - Performance Evaluation 3 : Top-3 combination 
 ```PS: check out README_results file.``` 
